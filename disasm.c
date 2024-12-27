@@ -554,6 +554,8 @@ static void analyze(void)
         addr = gLabels[li].addr;
         type = gLabels[li].type;
 
+        // printf("[DEBUG] addr=0x%08X, type=%d\n", addr, type);
+
         if (type == LABEL_ARM_CODE || type == LABEL_THUMB_CODE)
         {
             cs_option(sCapstone, CS_OPT_MODE, (type == LABEL_ARM_CODE) ? CS_MODE_ARM : CS_MODE_THUMB);
@@ -1320,7 +1322,7 @@ void disasm_disassemble(void)
         disasm_add_label(ROM_LOAD_ADDR, LABEL_ARM_CODE, NULL);
 
         // rom header
-        disasm_add_label(ROM_LOAD_ADDR + 4, LABEL_DATA, NULL);
+        disasm_add_label(ROM_LOAD_ADDR + 0xE0000, LABEL_DATA, NULL);
     }
 
     if (!gLabelsCount)
