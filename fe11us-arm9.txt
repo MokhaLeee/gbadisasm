@@ -1,16 +1,23 @@
-arm_func 0x2000800
-arm_func 0x200093c
+data_label 0x021E3328 unk_021E3328
+
+arm_func 0x2000800 _start
+arm_func 0x200093c _memset
 arm_func 0x2000950
 arm_func 0x20009fc
 arm_func 0x2000a74
 arm_func 0x2000a78
-arm_func 0x2000b60
-arm_func 0x2000b64
+arm_func 0x2000b60 nullsub_1
+arm_func 0x2000b64 nullsub_2
+# arm_func 0x2000b68
 # arm_func 0x2000c50
 arm_func 0x2000c70
 arm_func 0x2000c7c
 arm_func 0x2000d14
 # arm_func 0x2000d2c
+arm_func 0x2000F18
+arm_func 0x2000F58 _02000F58
+arm_func 0x2000F84 _02000F84
+arm_func 0x2000FD8 _02000FD8
 ##
 arm_func 0x207872c
 arm_func 0x2078808
