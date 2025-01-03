@@ -29,4 +29,4 @@ void disasm_disassemble(void);
 int jump_table_create_labels(uint32_t start, int count);
 
 #define MOKHA_ARM9
-#define MOKHA_ITCM
+// #define MOKHA_ITCM
