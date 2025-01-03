@@ -559,7 +559,7 @@ static void analyze(void)
 #if defined(MOKHA_ARM9)
         if (addr < 0x02000000 || addr > 0x020E8A78) {
             gLabels[li].processed = true;
-            // gLabels[li].size = addr - gLabels[li].addr;
+            gLabels[li].size = addr - gLabels[li].addr;
             continue;
         }
 #elif defined(MOKHA_ITCM)

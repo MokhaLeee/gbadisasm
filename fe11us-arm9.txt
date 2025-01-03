@@ -14,6 +14,7 @@ arm_func 0x2000c70
 arm_func 0x2000c7c
 arm_func 0x2000d14
 # arm_func 0x2000d2c
+# arm_func 0x200EF04
 arm_func 0x2000F18
 arm_func 0x2000FEC
 arm_func 0x2000F58 _02000F58
@@ -174,4 +175,4 @@ arm_func 0x20C28A8
 # arm_func 0x20C2924 _020C2924
 arm_func 0x20C4D2C sub_20C4D2C
 arm_func 0x20C3CB4 sub_20C3CB4
-# arm_func 0x200EF04
+
