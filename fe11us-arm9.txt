@@ -15,6 +15,7 @@ arm_func 0x2000c7c
 arm_func 0x2000d14
 # arm_func 0x2000d2c
 arm_func 0x2000F18
+arm_func 0x2000FEC
 arm_func 0x2000F58 _02000F58
 arm_func 0x2000F84 _02000F84
 arm_func 0x2000FD8 _02000FD8
@@ -116,3 +117,61 @@ arm_func 0x207b7d0
 arm_func 0x207b838
 arm_func 0x207b848
 arm_func 0x207b890
+arm_func 0x20C3B30 sub_20C3B30
+arm_func 0x20C4CDC
+arm_func 0x20C4CFC
+arm_func 0x20C4D10
+arm_func 0x20C4D28
+arm_func 0x20C4D2C
+arm_func 0x20C4D58
+arm_func 0x20C4FA0
+arm_func 0x20C4FCC
+arm_func 0x20C3B5C
+arm_func 0x20C3BA0
+arm_func 0x20C3BFC
+arm_func 0x20C3CB4
+arm_func 0x20C3D64
+arm_func 0x20C3E88
+arm_func 0x20C3EB8
+arm_func 0x20C3ECC
+arm_func 0x20C3EE8
+arm_func 0x20C3EFC
+arm_func 0x20C3F10
+arm_func 0x20C3F2C
+arm_func 0x20C3F40
+arm_func 0x20C3F5C
+arm_func 0x20C418C
+arm_func 0x20C425C
+arm_func 0x20C4268
+arm_func 0x20C4274
+arm_func 0x20C428C
+arm_func 0x20C42A4
+arm_func 0x20C42C4
+arm_func 0x20C4474
+arm_func 0x20C44D0
+arm_func 0x20C4570
+arm_func 0x20C4590
+arm_func 0x20C45C0
+arm_func 0x20C45F0
+arm_func 0x20C4638
+arm_func 0x20C4684
+arm_func 0x20C2528
+arm_func 0x20C253C
+arm_func 0x20C2550
+arm_func 0x20C2560
+arm_func 0x20C25B0
+arm_func 0x20C25E4
+arm_func 0x20C25EC
+arm_func 0x20C25F8
+arm_func 0x20C2720 sub_20C2720
+# arm_func 0x20C27B8 _020C27B8
+# arm_func 0x20C27E8 _020C27E8
+# arm_func 0x20C283C _020C283C
+# arm_func 0x20C2860 _020C2860
+arm_func 0x20C28A8
+# arm_func 0x20C28F4 _020C28F4
+# arm_func 0x20C2920 _020C2920
+# arm_func 0x20C2924 _020C2924
+arm_func 0x20C4D2C sub_20C4D2C
+arm_func 0x20C3CB4 sub_20C3CB4
+

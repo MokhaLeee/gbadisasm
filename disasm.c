@@ -175,7 +175,7 @@ static bool is_func_return(const struct cs_insn *insn)
      && arminsn->operands[0].reg == ARM_REG_PC)
         return true;
     // 'pop' with pc in the register list
-    if (insn->id == ARM_INS_POP)
+    if (insn->id == ARM_INS_POP && insn[0].detail->arm.cc == ARM_CC_AL)
     {
         int i;
 
@@ -555,6 +555,20 @@ static void analyze(void)
         type = gLabels[li].type;
 
         // printf("[DEBUG] addr=0x%08X, type=%d\n", addr, type);
+
+#if defined(MOKHA_ARM9)
+        if (addr < 0x02000000 || addr > 0x020E8A78) {
+            gLabels[li].processed = true;
+            // gLabels[li].size = addr - gLabels[li].addr;
+            continue;
+        }
+#elif defined(MOKHA_ITCM)
+        if (addr < 0x01FF8000 || addr > (0x01FF8000 + 0x4CE0)) {
+            gLabels[li].processed = true;
+            // gLabels[li].size = addr - gLabels[li].addr;
+            continue;
+        }
+#endif
 
         if (type == LABEL_ARM_CODE || type == LABEL_THUMB_CODE)
         {
