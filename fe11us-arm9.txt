@@ -176,3 +176,123 @@ arm_func 0x20C28A8
 arm_func 0x20C4D2C sub_20C4D2C
 arm_func 0x20C3CB4 sub_20C3CB4
 
+arm_func 0x2038FE4
+arm_func 0x2039088
+arm_func 0x20391E0
+arm_func 0x203944C
+arm_func 0x203983C
+arm_func 0x2039854
+
+arm_func 0x2039D4C
+arm_func 0x2039E10
+arm_func 0x2039E4C
+arm_func 0x2039E7C
+
+arm_func 0x2039EAC
+# arm_func 0x2039F00
+arm_func 0x2039F40
+arm_func 0x2039F88
+
+arm_func 0x2039FB8
+arm_func 0x2039FDC
+arm_func 0x203A91C
+arm_func 0x203A94C
+arm_func 0x203AA4C
+arm_func 0x203AC4C
+arm_func 0x203B1B8
+arm_func 0x203B714
+arm_func 0x203BCF4
+arm_func 0x203BD34
+arm_func 0x203BDD0
+arm_func 0x203BF68
+arm_func 0x203C19C
+arm_func 0x203C284
+arm_func 0x203C378
+arm_func 0x203C454
+arm_func 0x203C480
+arm_func 0x203C4D0
+arm_func 0x203C520
+arm_func 0x203C570
+arm_func 0x203C5C0
+arm_func 0x203C610
+arm_func 0x203C660
+arm_func 0x203C6C0
+arm_func 0x203C73C
+arm_func 0x203C77C
+arm_func 0x203C7AC
+arm_func 0x203C7E4
+arm_func 0x203C810
+arm_func 0x203C834
+arm_func 0x203CB6C
+arm_func 0x203CB98
+arm_func 0x203CBC4
+arm_func 0x203CC94
+arm_func 0x203CD30
+arm_func 0x203CE08
+arm_func 0x203CE6C
+arm_func 0x203CE9C
+arm_func 0x203CEF8
+arm_func 0x203CF20
+arm_func 0x203CF68
+arm_func 0x203D01C
+arm_func 0x203D094
+arm_func 0x203D10C
+arm_func 0x203D22C
+arm_func 0x203D294
+arm_func 0x203D2E4
+arm_func 0x203D374
+arm_func 0x203D40C
+arm_func 0x203D45C
+arm_func 0x203D4EC
+arm_func 0x203D554
+arm_func 0x203D59C
+arm_func 0x203D5EC
+arm_func 0x203D618
+arm_func 0x203D6DC
+arm_func 0x203D840
+arm_func 0x203DAD4
+arm_func 0x203DB78
+arm_func 0x203DBC0
+arm_func 0x203DF18
+
+arm_func 0x20A4208
+arm_func 0x20A4210
+arm_func 0x20A42F4
+arm_func 0x20A4308
+arm_func 0x20A4398
+arm_func 0x20A4414
+arm_func 0x20A4430
+arm_func 0x20A44A8
+arm_func 0x20A4520
+arm_func 0x20A45C0 GetTimer0Control
+arm_func 0x20A45D0
+arm_func 0x20A465C
+arm_func 0x20A469C
+arm_func 0x20A46AC
+arm_func 0x20A46BC
+arm_func 0x20A47E8
+arm_func 0x20A4854
+
+arm_func 0x20A48DC
+arm_func 0x20A48EC
+arm_func 0x20A49DC
+arm_func 0x20A4A24
+arm_func 0x20A4A38 lock_irqsave
+arm_func 0x20A4A4C unlock_irqrestore
+arm_func 0x20A4A64
+arm_func 0x20A4A78
+arm_func 0x20A4A90
+arm_func 0x20A4A9C
+arm_func 0x20A4AA8
+arm_func 0x20A4AB4
+arm_func 0x20A4AD0
+arm_func 0x20A4B24
+arm_func 0x20A4B58
+# arm_func 0x20A4B84
+arm_func 0x20A4C40
+arm_func 0x20A4C5C
+arm_func 0x20A4CE0
+arm_func 0x20A4CE8
+arm_func 0x20A4D1C
+arm_func 0x20A4DA4
+arm_func 0x20A4E74 hang
