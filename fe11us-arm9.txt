@@ -296,3 +296,5 @@ arm_func 0x20A4CE8
 arm_func 0x20A4D1C
 arm_func 0x20A4DA4
 arm_func 0x20A4E74 hang
+arm_func 0x20B6D18
+arm_func 0x20B6D78
