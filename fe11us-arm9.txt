@@ -298,3 +298,24 @@ arm_func 0x20A4DA4
 arm_func 0x20A4E74 hang
 arm_func 0x20B6D18
 arm_func 0x20B6D78
+
+arm_func 0x20A9588
+arm_func 0x20A967C
+arm_func 0x20A976C
+arm_func 0x20A977C
+arm_func 0x20A97D0
+arm_func 0x20A981C
+arm_func 0x20A985C
+arm_func 0x20A9924
+arm_func 0x20A99DC
+arm_func 0x20A9DE0
+arm_func 0x20A9F34
+arm_func 0x20A9D90
+
+arm_func 0x020A25C4 OS_InitIrqTable
+arm_func 0x020A25DC OS_SetIrqFunction
+arm_func 0x020A2664 OS_GetIrqFunction
+arm_func 0x020A26F0 OSi_EnterDmaCallback
+arm_func 0x020A2738 OSi_EnterTimerCallback
+arm_func 0x020A2780 OS_SetIrqMask
+arm_func 0x020A27AC OS_EnableIrqMask

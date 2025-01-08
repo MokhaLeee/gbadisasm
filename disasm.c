@@ -217,7 +217,11 @@ static uint32_t get_branch_target(const struct cs_insn *insn)
     assert(is_branch(insn));
     assert(insn->detail != NULL);
 
-    return insn->detail->arm.operands[0].imm;
+    uint32_t imm = insn->detail->arm.operands[0].imm;
+
+    // printf("imm = 0x%08X\n", imm);
+
+    return imm;
 }
 
 // Code Analysis
